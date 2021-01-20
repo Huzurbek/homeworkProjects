@@ -8,6 +8,7 @@
     $user=$_SESSION['user'];
     $admin=$bd->is_admin($user);
     $people=$bd->getAll();
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,12 +83,12 @@
                                 <div class="info-card-text flex-1">
                                     <a href="javascript:void(0);" class="fs-xl text-truncate text-truncate-lg text-info" data-toggle="dropdown" aria-expanded="false">
                                         <?php echo $person['username'];?>
-        <!--Permession For Admin:-->    <?php if($admin):?>
-                                            <i class="fal fas fa-cog fa-fw d-inline-block ml-1 fs-md"></i>
-                                            <i class="fal fa-angle-down d-inline-block ml-1 fs-md"></i>
-                                        <?endif;?>
+        <!--Permession For Admin:-->    <?php if($admin || $bd->is_author($user['id'],$person['id'])):?>
+                                        <i class="fal fas fa-cog fa-fw d-inline-block ml-1 fs-md"></i>
+                                        <i class="fal fa-angle-down d-inline-block ml-1 fs-md"></i>
+                                        <?php endif;?>
                                     </a>
-        <!--Permession For Admin:--><?php if($admin):?>
+        <!--Permession For Admin:--> <?php if($admin || $bd->is_author($user['id'],$person['id'])):?>
                                         <div class="dropdown-menu">
                                             <a class="dropdown-item" href="edit.php?id=<?php echo $person['id'];?>">
                                                 <i class="fa fa-edit"></i>
@@ -107,8 +108,7 @@
                                                 Удалить
                                             </a>
                                         </div>
-                                    <?endif;?>
-
+                                    <?php endif;?>
                                     <span class="text-truncate text-truncate-xl"> <?php echo $person['job_place'];?></span>
                                 </div>
                                 <button class="js-expand-btn btn btn-sm btn-default d-none" data-toggle="collapse" data-target="#c_1 > .card-body + .card-body" aria-expanded="false">

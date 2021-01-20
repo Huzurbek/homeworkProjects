@@ -127,5 +127,12 @@ class Database {
         return $result;
     }
 
+    //Loged user Id
+    public function is_author($logged_user_id,$edit_user_id){
+            if($logged_user_id==$edit_user_id){
+                return true;
+            }
+    }
+
 }
 ?>
