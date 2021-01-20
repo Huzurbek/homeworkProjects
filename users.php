@@ -81,8 +81,11 @@
                                     <span class="rounded-circle profile-image d-block " style="background-image:url('img/demo/avatars/<?php echo $person['image'];?>'); background-size: cover;"></span>
                                 </span>
                                 <div class="info-card-text flex-1">
-                                    <a href="javascript:void(0);" class="fs-xl text-truncate text-truncate-lg text-info" data-toggle="dropdown" aria-expanded="false">
+                                    <a href="page_profile.php?id=<?php echo $person['id'];?>" style="color:DodgerBlue;">
                                         <?php echo $person['username'];?>
+                                    </a>
+                                    <a href="javascript:void(0);" class="fs-xl text-truncate text-truncate-lg text-info" data-toggle="dropdown" aria-expanded="false">
+
         <!--Permession For Admin:-->    <?php if($admin || $bd->is_author($user['id'],$person['id'])):?>
                                         <i class="fal fas fa-cog fa-fw d-inline-block ml-1 fs-md"></i>
                                         <i class="fal fa-angle-down d-inline-block ml-1 fs-md"></i>

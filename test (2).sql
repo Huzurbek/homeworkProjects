@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 20 2021 г., 10:41
+-- Время создания: Янв 20 2021 г., 14:58
 -- Версия сервера: 10.3.22-MariaDB
 -- Версия PHP: 7.3.17
 
@@ -48,9 +48,10 @@ CREATE TABLE `level_2` (
 --
 
 INSERT INTO `level_2` (`id`, `email`, `password`, `username`, `job_place`, `phone_number`, `address`, `image`, `status`, `vk_login`, `telegram`, `instagram`, `is_admin`) VALUES
-(20, 'huzurbek@yahoo.com', '$2y$10$swl.2Mq8RRfc5wqJshpWO.OeW8vaWQGExw1aKxDatchpSIqIeGTIi', 'Huzurbek Kurbanov', 'Project Manager', '+998997573814', 'Tashkent city', '6007be2e92f15.png', 'success', 'vk_huzurbek', 'teg/huzurbek', 'huzurbek77', '1'),
+(20, 'huzurbek@yahoo.com', '$2y$10$swl.2Mq8RRfc5wqJshpWO.OeW8vaWQGExw1aKxDatchpSIqIeGTIi', 'Huzurbek Kurbanov', 'Project Manager', '+998997573814', 'New York USA', '60081a9c12925.png', 'success', 'vk_huzurbek', 'teg/huzurbek', 'huzurbek77', '1'),
 (37, 'jony@yahoo.com', '$2y$10$wPozYsFX0NUQA.n4l7YElu0Jpeao2dnTzX2Li6D6AerWwIx3oVivu', 'Tom Jony', 'Actor', '+1996728888', 'New York USA', '6007d8699781d.png', 'success', 'omon', 'Omon', 'omon', ''),
-(39, 'ezoza@yahoo.com', '$2y$10$6SAMFzrGiMnlu8/FrTN9X.Opg8wBmhJCBGwmaFmZ5yZ0fLptmNdOq', 'Ezoza Kurbanova', 'Housewife', '+998997573814', 'Tashkent city', '6007de7c4e2ee.png', 'danger', 'vk/ezoza', 'tg/ezoza', 'ezoza', '');
+(39, 'ezoza@yahoo.com', '$2y$10$6SAMFzrGiMnlu8/FrTN9X.Opg8wBmhJCBGwmaFmZ5yZ0fLptmNdOq', 'Ezoza Kurbanova', 'Housewife', '+998997573814', 'Tashkent city', '6007de7c4e2ee.png', 'danger', 'vk/ezoza', 'tg/ezoza', 'ezoza', ''),
+(40, 'jahon@yahoo.com', '$2y$10$h30KZqSRNQ7LJngMHsZNfe22tppYoi50M3pcnNgAvFbGwytEH57l.', 'Jahon', 'company', '+998997573814', 'Tashkent city', '600815663475d.png', 'warning', 'vk/shahzod', 'tg/alisher', 'alisher63', '');
 
 --
 -- Индексы сохранённых таблиц
@@ -70,7 +71,7 @@ ALTER TABLE `level_2`
 -- AUTO_INCREMENT для таблицы `level_2`
 --
 ALTER TABLE `level_2`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=41;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

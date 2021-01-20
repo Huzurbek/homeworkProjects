@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3c9f3001-3ffa-446e-b260-5c67bafd02d2" name="Default Changelist" comment="" />
+    <list default="true" id="3c9f3001-3ffa-446e-b260-5c67bafd02d2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/page_profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/users.php" beforeDir="false" afterPath="$PROJECT_DIR$/users.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +70,23 @@
       <workItem from="1610984130388" duration="328000" />
       <workItem from="1611030158723" duration="14819000" />
       <workItem from="1611055265536" duration="2161000" />
-      <workItem from="1611120062846" duration="8742000" />
+      <workItem from="1611120062846" duration="14121000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="604" y="331" key="NewPhpFileDialog" timestamp="1611041829657">
@@ -63,6 +97,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610705190045" />
+    <state x="618" y="320" key="VCS.ChangelistChooser" timestamp="1611144035430">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="618" y="320" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1611144035430" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1611035185599">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
